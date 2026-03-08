@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logoJB from "@/assets/logo-jb.png";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
