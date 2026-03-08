@@ -19,10 +19,10 @@ const Navbar = () => {
         <a href="#inicio" className="flex items-center gap-2">
           <div>
             <span className="font-heading text-primary-foreground text-lg font-bold leading-none tracking-wide">
-              JB Refrigeraciones
+              JB Refrigeración
             </span>
             <span className="block text-xs text-muted-foreground tracking-widest uppercase">
-              Industriales SAS
+              Industrial SAS
             </span>
           </div>
         </a>
