@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logoSnowflake from "@/assets/logo-snowflake.png";
+import logoJB from "@/assets/logo-jb.jpeg";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
