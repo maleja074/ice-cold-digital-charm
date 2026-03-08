@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2">
-          <img src={logoSnowflake} alt="JB Refrigeraciones" className="h-9 w-9" />
+          <img src={logoJB} alt="JB Refrigeraciones" className="h-10 w-auto" />
           <div className="hidden sm:block">
             <span className="font-heading text-primary-foreground text-lg font-bold leading-none tracking-wide">
               JB Refrigeraciones
