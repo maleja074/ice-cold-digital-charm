@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import QuienesSomos from "@/components/QuienesSomos";
+import Soluciones from "@/components/Soluciones";
 
 const Index = () => {
   return (
@@ -8,6 +9,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <QuienesSomos />
+      <Soluciones />
     </div>
   );
 };
