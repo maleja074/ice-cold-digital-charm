@@ -50,6 +50,13 @@ const soluciones = [
       "Automatización y control eléctrico: contactores, protecciones, recalibración y limpieza de tableros.",
     image: solTableros,
   },
+  {
+    icon: Package,
+    title: "Suministro de Equipos y Repuestos",
+    description:
+      "Proveemos equipos de refrigeración, compresores, condensadores, evaporadores, válvulas y repuestos de las mejores marcas del mercado.",
+    image: solRepuestos,
+  },
 ];
 
 const Soluciones = () => {
