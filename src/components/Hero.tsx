@@ -34,9 +34,10 @@ const Hero = () => {
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-in-up [animation-delay:400ms]">
           <a href="#contacto">
-          <Button variant="hero" size="lg" className="px-10 py-6">
-            Solicitar Cotización
-          </Button>
+            <Button variant="hero" size="lg" className="px-10 py-6">
+              Solicitar Cotización
+            </Button>
+          </a>
           <Button variant="heroOutline" size="lg" className="px-10 py-6">
             Ver Servicios
           </Button>
