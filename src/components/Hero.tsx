@@ -38,9 +38,11 @@ const Hero = () => {
               Solicitar Cotización
             </Button>
           </a>
-          <Button variant="heroOutline" size="lg" className="px-10 py-6">
-            Ver Servicios
-          </Button>
+          <a href="#soluciones">
+            <Button variant="heroOutline" size="lg" className="px-10 py-6">
+              Ver Servicios
+            </Button>
+          </a>
         </div>
       </div>
 
