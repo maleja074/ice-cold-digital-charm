@@ -17,8 +17,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2">
-          <img src={logoJB} alt="JB Refrigeraciones" className="h-10 w-auto mix-blend-screen brightness-110" />
-          <div className="hidden sm:block">
+          <div>
             <span className="font-heading text-primary-foreground text-lg font-bold leading-none tracking-wide">
               JB Refrigeraciones
             </span>
