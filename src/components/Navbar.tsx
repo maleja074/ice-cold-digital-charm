@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logoNavbar from "@/assets/logo-navbar.jpeg";
 
 const navLinks = [
   { label: "Inicio", href: "#inicio" },
@@ -17,14 +18,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-2">
-          <div>
-            <span className="font-heading text-primary-foreground text-lg font-bold leading-none tracking-wide">
-              JB Refrigeración
-            </span>
-            <span className="block text-xs text-muted-foreground tracking-widest uppercase">
-              Industrial SAS
-            </span>
-          </div>
+          <img src={logoNavbar} alt="JB Refrigeración Industrial SAS" className="h-10 md:h-14 w-auto" />
         </a>
 
         {/* Desktop nav */}
