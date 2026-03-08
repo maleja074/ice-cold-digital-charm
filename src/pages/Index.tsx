@@ -6,6 +6,7 @@ import Mantenimiento from "@/components/Mantenimiento";
 import EsenciaCorporativa from "@/components/EsenciaCorporativa";
 import Contacto from "@/components/Contacto";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <EsenciaCorporativa />
       <Contacto />
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };
