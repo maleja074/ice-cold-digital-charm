@@ -1,10 +1,11 @@
-import { Snowflake, Wind, FlaskConical, Wrench, Settings, Zap } from "lucide-react";
+import { Snowflake, Wind, FlaskConical, Wrench, Settings, Zap, Package } from "lucide-react";
 import solCuartosFrios from "@/assets/sol-cuartos-frios.jpeg";
 import solEquipos from "@/assets/sol-equipos.jpeg";
 import solInterior from "@/assets/sol-interior.jpeg";
 import solEstructura from "@/assets/sol-estructura.jpeg";
 import solMantenimiento from "@/assets/sol-mantenimiento.jpeg";
 import solTableros from "@/assets/sol-tableros.jpeg";
+import solRepuestos from "@/assets/sol-repuestos.jpeg";
 
 const soluciones = [
   {
@@ -48,6 +49,13 @@ const soluciones = [
     description:
       "Automatización y control eléctrico: contactores, protecciones, recalibración y limpieza de tableros.",
     image: solTableros,
+  },
+  {
+    icon: Package,
+    title: "Suministro de Equipos y Repuestos",
+    description:
+      "Proveemos equipos de refrigeración, compresores, condensadores, evaporadores, válvulas y repuestos de las mejores marcas del mercado.",
+    image: solRepuestos,
   },
 ];
 
